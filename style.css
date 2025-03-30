@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: background 0.3s ease-in-out;
+}
+
+.pagination a:hover {
+    background: #ddd;
+}
